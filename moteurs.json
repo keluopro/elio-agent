@@ -1,0 +1,31 @@
+{
+  "_lire": "Quel modèle sert à quoi. Élio demande un niveau, jamais un modèle : changer de fournisseur, de prix ou de modèle se fait ici, sans toucher au code. Chaque niveau liste ses moteurs par ordre de préférence ; si le premier échoue (quota, connexion, panne), le suivant prend le relais.",
+  "niveaux": {
+    "local": [
+      "ollama:gemma4:12b",
+      "ollama:gemma3:4b"
+    ],
+    "petit": [
+      "claude:haiku",
+      "ollama:gemma4:12b"
+    ],
+    "moyen": [
+      "claude:sonnet",
+      "ollama:gemma4:12b"
+    ],
+    "grand": [
+      "claude:opus",
+      "claude:sonnet"
+    ]
+  },
+  "commandes": {
+    "_lire": "Moteurs branchés par une commande : la question arrive sur l'entrée standard, la réponse est lue sur la sortie. Pour s'en servir, ajouter « commande:<nom> » dans un niveau. Exemple : Codex en ligne de commande, décrit mais branché dans aucun niveau.",
+    "codex": [
+      "codex",
+      "exec",
+      "--skip-git-repo-check",
+      "-"
+    ]
+  },
+  "repos_apres_echec_min": 15
+}

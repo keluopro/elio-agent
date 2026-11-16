@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /chemin/vers/elio-agent && python3 -m elio garde hook",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "elio-agent"
+version = "0.1.0"
+description = "Élio : agent IA personnel, local d'abord — mémoire Obsidian indexée, routeur de modèles, garde de relecture"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+elio = "elio.__main__:main"
+
+[tool.setuptools]
+packages = ["elio"]

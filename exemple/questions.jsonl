@@ -1,0 +1,8 @@
+{"q": "quand a lieu la migration du serveur ?", "attendu": ["22 novembre"]}
+{"q": "combien de RAM a le conteneur ?", "attendu": ["2 Go"]}
+{"q": "quel modèle local par défaut ?", "attendu": ["gemma4:12b"]}
+{"q": "à quelle fréquence tourne la sauvegarde ?", "attendu": ["horaire", "toutes les heures"]}
+{"q": "date de l'examen de réseaux", "attendu": ["20 novembre"]}
+{"q": "maintenance de l'hébergeur", "attendu": ["18/11"]}
+{"q": "score de gemma3 sur les questions réelles", "attendu": ["27"]}
+{"q": "qui peut payer ou saisir un secret ?", "attendu": ["paiements, les secrets"]}
